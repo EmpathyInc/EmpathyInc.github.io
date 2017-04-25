@@ -1,0 +1,33 @@
+{
+  "name": "wavedrom-editor",
+  "description": "WaveDrom editor",
+  "version": "1.4.2",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "eslint editor.js init.js",
+    "build": "./build-wde.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavedrom/wavedrom.github.io"
+  },
+  "keywords": [
+    "waveform",
+    "verilog",
+    "RTL"
+  ],
+  "author": "alex.drom@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavedrom/wavedrom.github.io/issues"
+  },
+  "homepage": "http://wavedrom.com",
+  "devDependencies": {
+    "codemirror": "^5.23.0",
+    "eslint": "^2.13.1",
+    "wavedrom": "^1.4.1"
+  }
+}
